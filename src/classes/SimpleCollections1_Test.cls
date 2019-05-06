@@ -38,7 +38,7 @@ private class SimpleCollections1_Test
     {
         List<Integer> values=new List<Integer>{1, 2, 8, 4, 20, 11, 7, -5};
         SimpleCollections1 simpleColl=new SimpleCollections1();
-        System.assertEquals(true, simpleColl.isInList(values, -8));
+        System.assertEquals(false, simpleColl.isInList(values, -8));
     }
 
     @isTest
@@ -74,7 +74,7 @@ private class SimpleCollections1_Test
         List<Integer> left=new List<Integer>{12, 4, 8, 20};
         List<Integer> right=new List<Integer>{2, 9, 15, 1};
         SimpleCollections1 simpleColl=new SimpleCollections1();
-        System.assertEquals(new List<Integer> {12, 2, 4, 9, 8, 14, 20, 1}, 
+        System.assertEquals(new List<Integer> {12, 2, 4, 9, 8, 15, 20, 1}, 
                                                simpleColl.joinAlternate(left, right));
     }
 }
