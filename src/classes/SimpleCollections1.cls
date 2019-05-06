@@ -13,7 +13,7 @@ public with sharing class SimpleCollections1
         return null;
     }
 
-    public Boolean isInList(List<String> values, String candidate)
+    public Boolean isInList(List<Integer> values, Integer candidate)
     {
         // change this method to return true if the candidate value
         // is present in the list of values, otheerwise false

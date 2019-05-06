@@ -65,7 +65,7 @@ private class SimpleCollections1_Test
         List<Integer> values=new List<Integer>{7, 3, 9, 6, 12, 1};
         SimpleCollections1 simpleColl=new SimpleCollections1();
         System.assertEquals(new List<Integer> {3, 9, 6, 12, 1, 7}, 
-                                               simpleColl.reverseList(values, 7));
+                                               simpleColl.reverseList(values));
     }
 
     @isTest
