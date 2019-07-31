@@ -34,7 +34,7 @@ public with sharing class SimpleCollections1
     {
         // change this method to return values list shifted left 'num' 
         // times - e.g. if values is [1,2,3,4,5,6] and num is 2 then
-        // the returned list will be [2,3,4,5,6,1,2]
+        // the returned list will be [3,4,5,6,1,2]
 
         return null;
     }
